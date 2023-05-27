@@ -14,8 +14,8 @@ Ce projet est une démonstration de l'implémentation d'un service caché Tor av
 Clonez ce repository :
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/ulookme/FT_ONION.git.git
+cd FT_ONION
 Lancez le service avec Docker Compose :
 
 bash
