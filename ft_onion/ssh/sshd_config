@@ -1,0 +1,11 @@
+Port 4242
+PermitRootLogin no
+MaxAuthTries 3
+MaxSessions 10
+PasswordAuthentication no
+PermitEmptyPasswords no
+UsePAM yes
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/lib/openssh/sftp-server

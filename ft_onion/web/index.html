@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Tor!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+        .content {
+            text-align: center;
+        }
+        img {
+            width: 600px;
+            height: 600px;
+        }
+    </style>
+    <script>
+        function checkAnswer() {
+            var answer = document.getElementById("answer").value;
+            if (answer === "0042") {  
+                window.location.href = "page2.html";
+            } else {
+                alert("Wrong answer. Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to our hidden service!</h1>
+        <p>This is a simple static page served from an onion service.</p>
+        <p>Solve the puzzle: What is the secret number?</p>
+        <input type="text" id="answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <img src="images/da.png" alt="Your Image">
+    </div>
+</body>
+</html>
